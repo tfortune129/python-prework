@@ -2,8 +2,8 @@
 #USERNAME is the input of the function. The first line of the code has been defined as below.
 def hello_name(user_name):
     """Display greeting"""""
-    print ("Hello_" + user_name.upper() + "!")
-hello_name('honeybee222')
+    print("Hello_" + user_name.upper() + "!")
+hello_name('honeybee22')
 
 ###########################################
 
@@ -17,7 +17,7 @@ def first_odds(range):
     if len(range) > 1:
         first_odds(range[1:])
 first_odds(range(1,100))
-print (oddvalues)    
+print(oddvalues)    
 
 #--or--
 
