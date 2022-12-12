@@ -8,18 +8,6 @@ hello_name('honeybee22')
 ###########################################
 
 #Question 2: Write a python function, first_odds that prints the odd numbers from 1-100 and returns nothing
-"""establish range (empty)"""
-oddvalues = []
-def first_odds(range):
-    """set parameters starting at first position of list"""
-    if range[0] % 2 == 1:
-        oddvalues.append(range[0])
-    if len(range) > 1:
-        first_odds(range[1:])
-first_odds(range(1,100))
-print(oddvalues)    
-
-#--or--
 
 def odds(value):
     return value % 2 == 1
