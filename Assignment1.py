@@ -9,10 +9,10 @@ hello_name('honeybee22')
 
 #Question 2: Write a python function, first_odds that prints the odd numbers from 1-100 and returns nothing
 
-def odds(value):
+def first_odds(value):
     return value % 2 == 1
-set = [1,2,3,4,5,6,7]
-result = filter(odds, set)
+set = range(1,101)
+result = filter(first_odds, set)
 print (list(result))
 
 #--or--
@@ -23,7 +23,7 @@ def oddnumbers(numbers):
         if number % 2 == 1:
             odd_num.append(number)
     return odd_num
-nums = [1,2,3,4,5,6,7,8,9,10]
+nums = range(1,101)
 print (oddnumbers(nums))
 
 ###########################################
